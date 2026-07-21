@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./icon.png" alt="Keyverse Logo" width="96" height="96"/>
+  <img src="https://kommodo.ai/i/FUWAHZFSMK6LkuAK8bnW" alt="Keyverse Logo" width="96" height="96"/>
 
   # ◆ KEYVERSE OPEN SOURCE
 
