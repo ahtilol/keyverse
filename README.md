@@ -97,7 +97,7 @@ npm install
 npm run dev
 ```
 
-> 🛠️ The Vite dev server will launch with hot module replacement at `http://localhost:5173` while Electron automatically boots the desktop shell.
+ The Vite dev server will launch with hot module replacement at `http://localhost:5173` while Electron automatically boots the desktop shell.
 
 ---
 
@@ -130,7 +130,7 @@ Keyverse includes native support for local **Offline Accounts**:
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Shell & Engine**: [Electron](https://www.electronjs.org/) + [electron-vite](https://electron-vite.org/)
 - **UI Framework**: [React 18](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
