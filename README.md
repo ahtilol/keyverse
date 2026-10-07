@@ -2,7 +2,7 @@
 
   <img src="./icon.png" alt="Keyverse Logo" width="96" height="96"/>
 
-  # ◆ KEYVERSE OPEN SOURCE
+  # KEYVERSE OPEN SOURCE
 
   **Next-generation, zero-telemetry Minecraft Java Edition launcher — engineered for speed, privacy, and full customizability.**
 
@@ -18,32 +18,32 @@
 
 ---
 
-## ⚡ Overview
+## Overview
 
 **Keyverse Open Source Edition** is a privacy-first desktop launcher for Minecraft Java Edition. Built from the ground up with Electron, Vite, React, and TypeScript, Keyverse combines raw launching performance with a sleek, minimalist UI.
 
 Unlike traditional launchers, Keyverse puts full control back in your hands: **100% local profile data**, **built-in offline account support**, **custom skin management**, and **zero background telemetry**.
 
-> 💡 *“Faster, smoother, and completely transparent Minecraft — zero telemetry, zero bloat.”*
+> *“Faster, smoother, and completely transparent Minecraft — zero telemetry, zero bloat.”*
 
 ---
 
-## 🔥 Key Features
+## Key Features
 
 | Feature | Description |
 | :--- | :--- |
-| 🎮 **All Mod Loaders** | Full support for **Vanilla**, **Fabric**, **Quilt**, **Forge**, and **NeoForge** with single-click installation. |
-| 👤 **Offline Accounts & Skins** | Play offline without Microsoft login. Local custom skin PNG storage with automatic **SkinsRestorer** mod integration. |
-| 🛡️ **Microsoft OAuth 2.0** | Official device-code authentication flow for online accounts. Password-free and secure. |
-| 🧩 **Live Mod Search & Install** | Native Modrinth API & CurseForge API integration for live mod browsing, dependency resolution, and updates. |
-| ⚙️ **Automatic JVM Tuning** | Hardware-aware **Aikar's G1GC flags** recommendation engine for minimal GC stutter and max FPS. |
-| 🎨 **Custom Themes & Splash** | Customizable dots/minimal splash screens, custom color accents, and Nyan Cat ears cosmetics. |
-| 🚀 **Byte-Level Download Pool** | Concurrent HTTP downloads with SHA1 hash verification and automatic byte resume. |
-| 🔒 **100% Zero Telemetry** | No tracking, no diagnostic pingers, no analytics. All tokens and profiles stay on your disk. |
+| **All Mod Loaders** | Full support for **Vanilla**, **Fabric**, **Quilt**, **Forge**, and **NeoForge** with single-click installation. |
+| **Offline Accounts & Skins** | Play offline without Microsoft login. Local custom skin PNG storage with automatic **SkinsRestorer** mod integration. |
+| **Microsoft OAuth 2.0** | Official device-code authentication flow for online accounts. Password-free and secure. |
+| **Live Mod Search & Install** | Native Modrinth API & CurseForge API integration for live mod browsing, dependency resolution, and updates. |
+| **Automatic JVM Tuning** | Hardware-aware **Aikar's G1GC flags** recommendation engine for minimal GC stutter and max FPS. |
+| **Custom Themes & Splash** | Customizable dots/minimal splash screens, custom color accents, and Nyan Cat ears cosmetics. |
+| **Byte-Level Download Pool** | Concurrent HTTP downloads with SHA1 hash verification and automatic byte resume. |
+| **100% Zero Telemetry** | No tracking, no diagnostic pingers, no analytics. All tokens and profiles stay on your disk. |
 
 ---
 
-## 🏗️ Architecture & Codebase Map
+## Architecture & Codebase Map
 
 Keyverse separates Electron main process operations, preload security boundaries, and the React frontend renderer cleanly:
 
@@ -76,7 +76,7 @@ graph TD
 
 ---
 
-## 🚀 Quickstart (Development)
+## Quickstart (Development)
 
 ### Prerequisites
 - **Node.js 18+**
@@ -101,7 +101,7 @@ npm run dev
 
 ---
 
-## 📦 Building Distribution Packages
+## Building Distribution Packages
 
 All production installers and binaries are generated using `electron-builder`:
 
@@ -115,13 +115,13 @@ npm run build
 
 | Platform | Output Target | Target Command |
 | :--- | :--- | :--- |
-| 🪟 **Windows** | NSIS Installer (`.exe`) | `npm run package:win` |
-| 🍎 **macOS** | Universal DMG (`Intel + Apple Silicon`) | `npm run package:mac` |
-| 🐧 **Linux** | AppImage (`.AppImage`) & Debian (`.deb`) | `npm run package:linux` |
+| **Windows** | NSIS Installer (`.exe`) | `npm run package:win` |
+| **macOS** | Universal DMG (`Intel + Apple Silicon`) | `npm run package:mac` |
+| **Linux** | AppImage (`.AppImage`) & Debian (`.deb`) | `npm run package:linux` |
 
 ---
 
-## 👤 Offline Accounts & SkinsRestorer Integration
+## Offline Accounts & SkinsRestorer Integration
 
 Keyverse includes native support for local **Offline Accounts**:
 1. **Local Account Generation**: Generates deterministic UUIDs without contacting external authentication servers.
@@ -140,7 +140,7 @@ Keyverse includes native support for local **Offline Accounts**:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -153,7 +153,7 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📄 License & Disclaimer
+## License & Disclaimer
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
